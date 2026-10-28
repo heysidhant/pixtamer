@@ -4,6 +4,8 @@ A native macOS app that converts, compresses, resizes and renames batches of ima
 with responsive widths, reusable presets, safe exports and real before/after sizes. Everything runs on the
 Mac: no account, no upload, no network access. Free and open source under the MIT licence.
 
+**Website:** [sidhantsinha.com/apps/pixtamer](https://sidhantsinha.com/apps/pixtamer)
+
 ## Install
 
 Download the latest `Pixtamer-<version>.dmg` from [Releases](https://github.com/heysidhant/pixtamer/releases),
