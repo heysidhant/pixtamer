@@ -9,6 +9,14 @@ Mac: no account, no upload, no network access. Free and open source under the MI
 Download the latest `Pixtamer-<version>.dmg` from [Releases](https://github.com/heysidhant/pixtamer/releases),
 open it and drag Pixtamer to Applications. Builds are signed with a Developer ID and notarized by Apple.
 
+Or with [Homebrew](https://github.com/heysidhant/homebrew-tap):
+
+```sh
+brew tap heysidhant/tap
+brew trust heysidhant/tap
+brew install --cask pixtamer
+```
+
 ## Requirements
 
 - macOS 14 or later to run (formats are detected at runtime; see below).
