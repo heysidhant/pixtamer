@@ -1,0 +1,15 @@
+# Build output
+build/
+DerivedData/
+Packages/PixtamerKit/.build/
+Packages/PixtamerKit/.swiftpm/
+
+# Xcode user state
+*.xcuserstate
+xcuserdata/
+Pixtamer.xcodeproj/project.xcworkspace/xcuserdata/
+
+.DS_Store
+
+# Packaged builds
+dist/

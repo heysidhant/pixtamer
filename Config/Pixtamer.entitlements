@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Sandboxed. No network entitlement: Pixtamer cannot make network connections. -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<!-- Read images and write exports only where the user chooses (open panel or drag and drop). -->
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+	<!-- Used only when "Remember the last export folder" is turned on. -->
+	<key>com.apple.security.files.bookmarks.app-scope</key>
+	<true/>
+</dict>
+</plist>
