@@ -6,6 +6,8 @@ Mac: no account, no upload, no network access. Free and open source under the MI
 
 **Website:** [sidhantsinha.com/apps/pixtamer](https://sidhantsinha.com/apps/pixtamer)
 
+![Pixtamer with a batch of images queued for WebP export](docs/screenshot.png)
+
 ## Install
 
 Download the latest `Pixtamer-<version>.dmg` from [Releases](https://github.com/heysidhant/pixtamer/releases),
