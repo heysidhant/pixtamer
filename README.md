@@ -2,6 +2,12 @@
 
 <a href="https://www.opensourcealternatives.to"><img src="https://www.opensourcealternatives.to/badge-osa.svg" alt="As seen on Open Source Alternatives" width="270" height="20"></a>
 
+<a href="https://macbase.app/apps/pixtamer?ref=badge" target="_blank" rel="noopener">
+  <img src="https://macbase.app/badge/featured-on-macbase.svg"
+       alt="Pixtamer is featured on MacBase"
+       height="72" style="height:72px;width:auto">
+</a>
+
 A native macOS app that converts, compresses, resizes and renames batches of images into web-ready assets —
 with responsive widths, reusable presets, safe exports and real before/after sizes. Everything runs on the
 Mac: no account, no upload, no network access. Free and open source under the MIT licence.
