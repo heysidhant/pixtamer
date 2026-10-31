@@ -8,6 +8,8 @@
        height="72" style="height:72px;width:auto">
 </a>
 
+<a href="https://macpip.com/apps/pixtamer"><img src="https://macpip.com/badge-listed.svg" width="190" height="52" alt="Listed on MacPip"></a>
+
 A native macOS app that converts, compresses, resizes and renames batches of images into web-ready assets —
 with responsive widths, reusable presets, safe exports and real before/after sizes. Everything runs on the
 Mac: no account, no upload, no network access. Free and open source under the MIT licence.
