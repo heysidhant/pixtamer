@@ -13,3 +13,6 @@ Pixtamer.xcodeproj/project.xcworkspace/xcuserdata/
 
 # Packaged builds
 dist/
+
+# Marketing assets: kept locally only, not published in this public repo
+marketing-media/
