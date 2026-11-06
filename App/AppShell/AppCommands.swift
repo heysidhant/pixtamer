@@ -62,6 +62,9 @@ struct AppCommands: Commands {
         CommandGroup(replacing: .help) {
             Button("Pixtamer Help") { openWindow(id: WindowID.help) }
                 .keyboardShortcut("?", modifiers: .command)
+            Divider()
+            Link("Pixtamer Support", destination: AppLinks.support)
+            Link("Privacy Policy", destination: AppLinks.privacyPolicy)
         }
     }
 }

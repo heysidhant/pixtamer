@@ -57,8 +57,8 @@ Milestones follow PRD §10. `[x]` = done and verified as noted; `[ ]` = open.
 
 ## Milestone 5 — Release preparation (not started)
 
-- [ ] Choose distribution (Mac App Store vs Developer ID); real bundle identifier and team
-- [ ] Developer ID signing + notarisation (only an Apple Development identity is installed today)
+- [x] Choose distribution: Developer ID (shipped) and Mac App Store (see APP_STORE.md); bundle identifier `com.heysidhant.Pixtamer`, team `RUCQNP5F6L`
+- [x] Developer ID signing + notarisation
 - [ ] Private beta checklist, feedback questions (PRD §12)
 
 ## Verification log

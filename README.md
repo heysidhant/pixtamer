@@ -14,7 +14,7 @@ A native macOS app that converts, compresses, resizes and renames batches of ima
 with responsive widths, reusable presets, safe exports and real before/after sizes. Everything runs on the
 Mac: no account, no upload, no network access. Free and open source under the MIT licence.
 
-**Website:** [sidhantsinha.com/apps/pixtamer](https://sidhantsinha.com/apps/pixtamer)
+**Website:** [pixtamer.pages.dev](https://pixtamer.pages.dev)
 
 ![Pixtamer with a batch of images queued for WebP export](docs/screenshot.png)
 
@@ -64,6 +64,16 @@ With a "Developer ID Application" certificate in your keychain, the script signs
 and notarizes when `NOTARY_PROFILE` names a profile saved with `xcrun notarytool store-credentials`.
 Without one, the build is ad-hoc signed: it opens normally on the Mac that built it, and other Macs must
 allow it once in System Settings → Privacy & Security → Open Anyway.
+
+## Package for the Mac App Store
+
+```sh
+scripts/make-appstore.sh              # → dist/AppStore/Pixtamer.pkg, signed for the Mac App Store
+UPLOAD=1 scripts/make-appstore.sh     # also uploads to App Store Connect
+```
+
+This needs the maintainer's Apple Developer account in Xcode. The listing, privacy answers and review notes are in
+[docs/APP_STORE.md](docs/APP_STORE.md).
 
 ## Test
 
@@ -118,6 +128,10 @@ Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 Open an [issue](https://github.com/heysidhant/pixtamer/issues). In the app choose **Help → Pixtamer Help → Copy Diagnostics** and paste the text into your report with
 the steps to reproduce. Diagnostics list versions, format support and error codes; they contain no images
 and no full file paths. Do not attach private images unless you are happy to share them.
+
+## Privacy
+
+Pixtamer collects nothing. See the [privacy policy](PRIVACY.md).
 
 ## Third-party code
 

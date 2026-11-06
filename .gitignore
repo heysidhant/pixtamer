@@ -16,3 +16,6 @@ dist/
 
 # Marketing assets: kept locally only, not published in this public repo
 marketing-media/
+
+# Wrangler cache
+.wrangler/

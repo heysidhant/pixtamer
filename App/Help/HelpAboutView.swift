@@ -40,7 +40,8 @@ struct HelpAboutView: View {
                         Text("Version \(model.appVersion) (\(model.appBuild))").foregroundStyle(.secondary)
                         Text("Batch image optimisation for the web.").foregroundStyle(.secondary)
                         HStack(spacing: 12) {
-                            Link("Source Code (MIT)", destination: URL(string: "https://github.com/heysidhant/pixtamer")!)
+                            Link("Source Code (MIT)", destination: AppLinks.source)
+                            Link("Support", destination: AppLinks.support)
                             if let notices = Bundle.main.url(forResource: "ThirdPartyNotices", withExtension: "txt") {
                                 Button("Third-Party Notices") { NSWorkspace.shared.open(notices) }
                                     .buttonStyle(.link)
@@ -52,13 +53,16 @@ struct HelpAboutView: View {
                 HelpSection(title: "Privacy") {
                     Text("Images are processed on this Mac. Pixtamer has no account, no analytics and no network access (the app is sandboxed without the network entitlement; links open in your browser). It can only read files you add and write to the folder you choose. Originals are never modified.")
                         .fixedSize(horizontal: false, vertical: true)
+                    Link("Privacy Policy", destination: AppLinks.privacyPolicy)
                 }
 
+                #if !APP_STORE
                 HelpSection(title: "More from the Maker") {
                     Text("Pixtamer is free and open source. For video, audio, PDFs and on-device AI as well as images, try MightyBench: 49 private tools in one Mac app.")
                         .fixedSize(horizontal: false, vertical: true)
                     Link("mightybench.com", destination: URL(string: "https://mightybench.com/?ref=pixtamer")!)
                 }
+                #endif
 
                 HelpSection(title: "Formats on This Mac") {
                     if let capabilities = model.capabilities {
