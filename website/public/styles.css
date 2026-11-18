@@ -208,6 +208,24 @@ p {
   background: #ffd488;
 }
 
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+}
+
+.button-alt {
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  text-underline-offset: 4px;
+}
+
+.button-alt:hover {
+  text-decoration-thickness: 2px;
+}
+
 .fineprint {
   margin-top: 12px;
   font-size: 0.9375rem;
