@@ -13,6 +13,7 @@ Native SwiftUI. No account, no upload, no network access.
 
 [![GitHub stars](https://img.shields.io/github/stars/heysidhant/pixtamer?style=flat)](https://github.com/heysidhant/pixtamer/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Listed in awesome-mac](https://img.shields.io/badge/listed_in-awesome--mac-fc60a8?logo=awesomelists&logoColor=white)](https://github.com/jaywcjlove/awesome-mac)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)
 
